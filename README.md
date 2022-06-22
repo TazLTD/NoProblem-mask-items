@@ -11,3 +11,5 @@ Add this to qb-core/shared/items.lua
 
 
 NoProblem mask as items 
+
+Report bugs in discord https://discord.gg/Ys2n488cSE
