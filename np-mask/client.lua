@@ -5,7 +5,7 @@ local wearing = false
 RegisterNetEvent('masks:client:terror', function(itemName)
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Слагане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskon"), 2000, false, true, {
         
             disableMovement = false,
             disableCarMovement = false,
@@ -19,7 +19,7 @@ RegisterNetEvent('masks:client:terror', function(itemName)
         end)
     else
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Махане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskoff"), 2000, false, true, {
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
@@ -36,7 +36,7 @@ end)
 RegisterNetEvent('masks:client:hockeymask', function(itemName)
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Слагане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskon"), 2000, false, true, {
         
             disableMovement = false,
             disableCarMovement = false,
@@ -50,7 +50,7 @@ RegisterNetEvent('masks:client:hockeymask', function(itemName)
         end)
     else
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Махане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskoff"), 2000, false, true, {
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
@@ -69,7 +69,7 @@ end)
 RegisterNetEvent('masks:client:blackbandana', function(itemName)
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Слагане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskon"), 2000, false, true, {
         
             disableMovement = false,
             disableCarMovement = false,
@@ -83,7 +83,7 @@ RegisterNetEvent('masks:client:blackbandana', function(itemName)
         end)
     else
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Махане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskoff"), 2000, false, true, {
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
@@ -102,7 +102,7 @@ end)
 RegisterNetEvent('masks:client:tshirtmask', function(itemName)
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Слагане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskon"), 2000, false, true, {
         
             disableMovement = false,
             disableCarMovement = false,
@@ -116,7 +116,7 @@ RegisterNetEvent('masks:client:tshirtmask', function(itemName)
         end)
     else
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Махане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskoff"), 2000, false, true, {
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
@@ -135,7 +135,7 @@ end)
 RegisterNetEvent('masks:client:scarecrowmask', function(itemName)
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Слагане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskon"), 2000, false, true, {
         
             disableMovement = false,
             disableCarMovement = false,
@@ -149,7 +149,7 @@ RegisterNetEvent('masks:client:scarecrowmask', function(itemName)
         end)
     else
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Махане на маска..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskoff"), 2000, false, true, {
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
@@ -168,7 +168,7 @@ end)
 RegisterNetEvent('masks:client:scarf', function(itemName)
     if not wearing then
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Слагане на шал..", 3300, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskon"), 3300, false, true, {
         
             disableMovement = false,
             disableCarMovement = false,
@@ -182,7 +182,7 @@ RegisterNetEvent('masks:client:scarf', function(itemName)
         end)
     else
         TriggerEvent('animations:client:EmoteCommandStart', {"adjusttie"})
-        QBCore.Functions.Progressbar("mask_progress", "Махане на шал..", 2000, false, true, {
+        QBCore.Functions.Progressbar("mask_progress", Lang:t("progressbar.maskoff"), 2000, false, true, {
             disableMovement = false,
             disableCarMovement = false,
             disableMouse = false,
